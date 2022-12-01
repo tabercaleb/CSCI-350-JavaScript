@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Dicee</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-
-  </head>
-  <body>
-
-    <div class="container">
-      <h1>Refresh Me</h1>
-
-      <div class="dice">
-        <p>Player 1</p>
-        <img class="img1" src="">
-      </div>
-
-      <div class="dice">
-        <p>Player 2</p>
-        <img class="img2" src="">
-      </div>
-
-    </div>
-
-
-  </body>
-
-  <footer>
-   
-  </footer>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Dice</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="page">
+            <div class="header">
+                <h1>Roll Total:</h1>
+                <h1 id="sum">Refresh Me</h1>
+            </div>
+            <div class="button">
+                <button type="submit" onClick="refreshPage()">Roll Again</button>
+            </div>
+            <div class="dice">
+                <img id="img1" src="dice6.png">
+            </div>
+            <div class="dice">
+                <img id="img2" src="dice6.png">
+            </div>
+            <script src="index.js"></script>
+        </div>
+    </body>
+    <footer>
+        Caleb Taber
+    </footer>
 </html>
